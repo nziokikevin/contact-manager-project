@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Switch, Route} from "react-router-dom";
+import ContactList from "./components/ContactList";
+import NavBar from "./components/NavBar";
+import AddContact from "./components/AddContact";
+import ViewContact from "./components/ViewContact";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+function App(){
+  
+  return(
+    <div>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" >
+          <ContactList />
+        </Route>
+        <Route exact path="/contacts/add" >
+          <AddContact />
+        </Route>
+        <Route exact path="/contacts/view/:contactId" >
+          <ViewContact />
+        </Route>
+      </Switch>
     </div>
-  );
+  )
 }
 
 export default App;
