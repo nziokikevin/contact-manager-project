@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {NavLink, useHistory} from "react-router-dom"
+import {NavLink } from "react-router-dom"
 
 function AddContact(){
     const[contactAdd, setContactAdd] = useState({
@@ -18,7 +18,7 @@ function AddContact(){
 
     const{contact} = contactAdd;
 
-    const history = useHistory()
+    // const history = useHistory()
 
     function handleSubmit(e){
         e.preventDefault();
@@ -39,7 +39,7 @@ function AddContact(){
         .then((r) => r.json())
         .then((newContact) => {
         console.log(newContact);
-            history.push("/");
+            // history.push("/");
             e.target.reset()      
         });
     }
