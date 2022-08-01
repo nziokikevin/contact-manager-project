@@ -17,6 +17,9 @@ KN contact manager is a web application that deals with the creating, adding, vi
 
 5. The web application is now available for interaction with the user.
 
+## **Link to live site**
+Click this link to view the live application: https://kn-contact.herokuapp.com/
+
 ## **Copyright and License Information:**
                            Copyright (c) [2022] [Kevin Nzioki]
 
