@@ -18,7 +18,7 @@ KN contact manager is a web application that deals with the creating, adding, vi
 5. The web application is now available for interaction with the user.
 
 ## **Link to live site**
-Click this link to view the live application: https://62e7e899a021545b996e75f7--snazzy-crisp-726650.netlify.app/
+Click this link to view the live application: https://main--snazzy-crisp-726650.netlify.app/
 
 ## **Copyright and License Information:**
                            Copyright (c) [2022] [Kevin Nzioki]
