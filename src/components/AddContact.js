@@ -29,7 +29,7 @@ function AddContact(){
             company: contact.company,
             group: contact.group
         }
-        fetch("https://json-server-contact-api.herokuapp.com/contacts", {
+        fetch("https://json-server-api-e1284-default-rtdb.europe-west1.firebasedatabase.app/contacts", {
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",
