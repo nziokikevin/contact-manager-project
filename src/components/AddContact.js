@@ -29,7 +29,7 @@ function AddContact(){
             company: contact.company,
             group: contact.group
         }
-        fetch("https://json-server-api-e1284-default-rtdb.europe-west1.firebasedatabase.app/contacts", {
+        fetch("https://project-data-bzs8.onrender.com/contacts", {
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",

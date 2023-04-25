@@ -7,7 +7,7 @@ function ViewContact(){
     const[isLoaded, setIsLoaded] = useState(false)
 
     useEffect(() => {
-        fetch(`https://json-server-contact-api.herokuapp.com/contacts/${contactId}`)
+        fetch(`https://project-data-bzs8.onrender.com/contacts/${contactId}`)
         .then((r) => r.json())
         .then((contactViewData) => {
             setContact(contactViewData)
