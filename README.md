@@ -2,7 +2,7 @@
 ## *Written by : Kevin Nzioki.*
 
 ## **Project Description.**
-KN contact manager is a web application that deals with the creating, adding, viewing and deleting of contacts. It consumes a web API hosted in Heroku which helps in the CRUD application of the project.
+KN contact manager is a web application that deals with the creating, adding, viewing and deleting of contacts. It consumes a web API hosted in Render which helps in the CRUD functionality of the project.
 
 ## **Project setup instructions:**
 1. Clone the project on your local machine from this repo : https://github.com/nziokikevin/contact-manager-project
