@@ -8,7 +8,7 @@ function ContactList() {
 
 
     useEffect(() => {
-        fetch("https://json-server-api-e1284-default-rtdb.europe-west1.firebasedatabase.app/contacts")
+        fetch("https://project-data-bzs8.onrender.com/contacts")
             .then((r) => r.json())
             .then((contactData) => {
                 setContacts(contactData)
@@ -17,7 +17,7 @@ function ContactList() {
     }, [])
 
     function handleDelete(contactId) {
-        fetch(`https://json-server-api-e1284-default-rtdb.europe-west1.firebasedatabase.app/contacts/${contactId}`, {
+        fetch(`https://project-data-bzs8.onrender.com/contacts/${contactId}`, {
             method: "DELETE",
         })
             .then((r) => r.json())
